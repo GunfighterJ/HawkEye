@@ -297,6 +297,10 @@ public class JDCConnection implements Connection
 			return false;
 		}
 	}
+	
+	void getNetworkTimeout() {
+		
+	}
 
 	synchronized boolean lease() {
 		if (inuse)
